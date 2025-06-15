@@ -1,3 +1,17 @@
+<p align="center">
+  <img src="logocimat.png" alt="Logo CIMAT" width="150" align="left"/>
+  <img src="logo_secihti.png" alt="Logo SECiHTI" width="300" align="right"/>
+</p>
+
+<p align="center">
+  <strong><span style="font-size:1.5em">Centro de Investigación en Matemáticas, A.C.</span></strong>
+</p>
+
+<p align="center">
+  <img src="logo_insp.png" alt="Logo INSP" width="250"/>
+</p>
+
+
 # **Segmentación semántica del paisaje en zonas urbanas para la determinación de factores de riesgo de transmisión de dengue**
 
 Este repositorio contiene los notebooks, herramientas y documentación desarrollados durante la consultoría con el Instituto Nacional de Salud Pública (INSP).
