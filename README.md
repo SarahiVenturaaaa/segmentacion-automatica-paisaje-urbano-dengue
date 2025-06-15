@@ -6,7 +6,7 @@
     <td align="center" width="60%">
       <strong>Centro de Investigación en Matemáticas, A.C.</strong>
     </td>
-    <td align="right" width="15%">
+    <td align="right" width="35%">
       <img src="logo_secihti.png" alt="Logo SECiHTI" width="450">
     </td>
   </tr>
