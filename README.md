@@ -11,6 +11,13 @@
   <img src="logo_insp.png" alt="Logo INSP" width="250"/>
 </p>
 
+<p align="center">
+  <strong><span style="font-size:1.8em">Segmentación semántica del paisaje en zonas urbanas para la determinación de factores de riesgo de transmisión de dengue</span></strong>
+</p>
+
+
+
+
 
 # **Segmentación semántica del paisaje en zonas urbanas para la determinación de factores de riesgo de transmisión de dengue**
 
