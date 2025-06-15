@@ -1,12 +1,12 @@
-<table width="120%">
+<table width="140%">
   <tr>
     <td align="left" width="25%">
       <img src="logocimat.png" alt="Logo CIMAT" width="120">
     </td>
-    <td align="center" width="60%">
-      <h2>Centro de Investigación en Matemáticas, A.C.</h2>
+    <td align="center" width="70%">
+      <h1>Centro de Investigación en Matemáticas, A.C.</h1>
     </td>
-    <td align="right" width="35%">
+    <td align="right" width="45%">
       <img src="logo_secihti.png" alt="Logo SECiHTI" width="450">
     </td>
   </tr>
