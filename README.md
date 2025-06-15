@@ -4,7 +4,7 @@
       <img src="logocimat.png" alt="Logo CIMAT" width="120">
     </td>
     <td align="center" width="50%">
-      <strong>Centro de Investigación en Matemáticas, A.C.</strong>
+      <strong><span style="font-size:1.8em">Centro de Investigación en Matemáticas, A.C.</span></strong>
     </td>
     <td align="right" width="35%">
       <img src="logo_secihti.png" alt="Logo SECiHTI" width="450">
