@@ -3,7 +3,7 @@
     <td align="left" width="25%">
       <img src="logocimat.png" alt="Logo CIMAT" width="120">
     </td>
-    <td align="center" width="60%">
+    <td align="center" width="50%">
       <strong>Centro de Investigación en Matemáticas, A.C.</strong>
     </td>
     <td align="right" width="35%">
