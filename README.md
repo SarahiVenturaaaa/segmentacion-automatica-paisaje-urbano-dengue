@@ -21,11 +21,11 @@
     <td align="left" width="25%">
       <img src="logocimat.png" alt="Logo CIMAT" width="120">
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="60%">
       <strong>Centro de Investigación en Matemáticas, A.C.</strong>
     </td>
-    <td align="right" width="25%">
-      <img src="logo_secihti.png" alt="Logo SECiHTI" width="250">
+    <td align="right" width="15%">
+      <img src="logo_secihti.png" alt="Logo SECiHTI" width="350">
     </td>
   </tr>
 </table>
