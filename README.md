@@ -1,23 +1,9 @@
-<table width="100%">
+<table width="110%">
   <tr>
     <td align="left" width="25%">
       <img src="logocimat.png" alt="Logo CIMAT" width="120">
     </td>
-    <td align="center" width="40%">
-      <strong>Centro de Investigación en Matemáticas, A.C.</strong>
-    </td>
-    <td align="right" width="35%">
-      <img src="logo_secihti.png" alt="Logo SECiHTI" width="450">
-    </td>
-  </tr>
-</table>
-
-<table width="100%">
-  <tr>
-    <td align="left" width="25%">
-      <img src="logocimat.png" alt="Logo CIMAT" width="120">
-    </td>
-    <td align="center" width="40%">
+    <td align="center" width="50%">
       <h2>Centro de Investigación en Matemáticas, A.C.</h2>
     </td>
     <td align="right" width="35%">
@@ -31,7 +17,6 @@
   <img src="logo_insp.png" alt="Logo INSP" width="250"/>
 </p>
 <br>
-
 
 <h1 align="center">Segmentación semántica del paisaje en zonas urbanas para la determinación de factores de riesgo de transmisión de dengue</h1>
 
