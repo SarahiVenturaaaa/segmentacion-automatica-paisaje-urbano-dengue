@@ -1,9 +1,9 @@
-<table width="110%">
+<table width="120%">
   <tr>
     <td align="left" width="25%">
       <img src="logocimat.png" alt="Logo CIMAT" width="120">
     </td>
-    <td align="center" width="50%">
+    <td align="center" width="60%">
       <h2>Centro de Investigación en Matemáticas, A.C.</h2>
     </td>
     <td align="right" width="35%">
