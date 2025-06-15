@@ -21,13 +21,12 @@
 <h1 align="center">Segmentación semántica del paisaje en zonas urbanas para la determinación de factores de riesgo de transmisión de dengue</h1>
 
 
+Este repositorio contiene los notebooks, herramientas y documentación generados durante la consultoría realizada en colaboración con el Instituto Nacional de Salud Pública (INSP).
 
+Se desarrolló una herramienta de segmentación semántica del paisaje urbano en Tapachula, Chiapas, utilizando técnicas de aprendizaje automático. Su propósito es identificar de forma automática distintas coberturas del paisaje, como vegetación, cuerpos de agua, techos, pavimento, entre otras, que están asociadas a factores de riesgo para la transmisión de enfermedades como el dengue.
 
-Este repositorio contiene los notebooks, herramientas y documentación desarrollados durante la consultoría con el Instituto Nacional de Salud Pública (INSP).
+Para ello, se entrenaron modelos de clasificación automática que permiten categorizar superpíxeles en imágenes aéreas urbanas segmentadas, facilitando la detección de condiciones ambientales relacionadas con la presencia del mosquito *Aedes aegypti*
 
-Herramienta para segmentación semántica del paisaje urbano en Tapachula, Chiapas, mediante aprendizaje automático, para identificar coberturas del paisaje de forma automática  (vegetación, cuerpos de agua, techos, pavimento, etc.) asociados con el riesgo de transmisión de enfermedades como el dengue
-
-Se entrenaron modelos de aprendizaje automático para clasificar superpíxeles en imágenes aéreas urbanas segmentadas, con el objetivo de identificar condiciones del paisaje asociadas a la presencia del mosquito *Aedes aegypti*.
 
 ## 📂 Contenido del repositorio
 
