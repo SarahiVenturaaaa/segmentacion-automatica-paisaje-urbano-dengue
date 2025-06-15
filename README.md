@@ -1,21 +1,3 @@
-<p align="center">
-  <img src="logocimat.png" alt="Logo CIMAT" width="150" align="left"/>
-  <img src="logo_secihti.png" alt="Logo SECiHTI" width="300" align="right"/>
-</p>
-
-<p align="center">
-  <strong><span style="font-size:1.5em">Centro de Investigación en Matemáticas, A.C.</span></strong>
-</p>
-
-<p align="center">
-  <img src="logo_insp.png" alt="Logo INSP" width="250"/>
-</p>
-<br>
-
-<p align="center">
-  <strong><span style="font-size:1.8em">Segmentación semántica del paisaje en zonas urbanas para la determinación de factores de riesgo de transmisión de dengue</span></strong>
-</p>
-
 <table width="100%">
   <tr>
     <td align="left" width="25%">
@@ -25,10 +7,19 @@
       <strong>Centro de Investigación en Matemáticas, A.C.</strong>
     </td>
     <td align="right" width="15%">
-      <img src="logo_secihti.png" alt="Logo SECiHTI" width="350">
+      <img src="logo_secihti.png" alt="Logo SECiHTI" width="450">
     </td>
   </tr>
 </table>
+
+<p align="center">
+  <img src="logo_insp.png" alt="Logo INSP" width="250"/>
+</p>
+<br>
+
+<p align="center">
+  <strong><span style="font-size:1.8em">Segmentación semántica del paisaje en zonas urbanas para la determinación de factores de riesgo de transmisión de dengue</span></strong>
+</p>
 
 
 
