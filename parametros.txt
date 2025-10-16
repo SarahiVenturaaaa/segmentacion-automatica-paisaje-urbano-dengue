@@ -1,0 +1,8 @@
+40 #Parametro 1
+10 #Parametro 2
+10 #Parametro 3
+20 #Parametro 4
+Arboles, Suelo Desnudo, Pavimento, Cuerpo de Agua, Techo de Lamina, Techo de Loza, Arbusto, Hierba y pasto seco, Hierba y pasto verde, Sombra, Sin etiqueta #Categorías a etiquetar
+Etiquetado #Nombre de los archivos
+
+
