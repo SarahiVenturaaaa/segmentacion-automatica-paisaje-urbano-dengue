@@ -57,47 +57,24 @@ Para ello, se entrenaron modelos de clasificación automática que permiten cate
 
 Se incluyen archivos `.txt` con las versiones exactas de las librerías requeridas para facilitar la reproducción del entorno.
 
+## 🗂️ Dataset utilizado: TapachulaRGB-DroneDataset
 
-🗂️ Dataset utilizado: TapachulaRGB-DroneDataset
+Este repositorio trabaja con un conjunto de datos propio de **imágenes aéreas RGB de alta resolución** capturadas por dron en **Tapachula, Chiapas (México)**.
 
-Este repositorio trabaja con un conjunto de datos propio denominado:
+🔗 **Acceso público al dataset:**  
+[https://drive.google.com/drive/folders/1VVvzgeX1ijy2it0-73B0oUnwz_FeZ896?usp=sharing](https://drive.google.com/drive/folders/1VVvzgeX1ijy2it0-73B0oUnwz_FeZ896?usp=sharing)
 
-📌 TapachulaRGB: Conjunto de datos de imágenes aéreas RGB obtenidas por dron en Tapachula, Chiapas
+📍 **Características principales**
+- Imágenes aéreas urbanas capturadas mediante dron en Tapachula, Chiapas (México).
+- Imágenes **segmentadas y etiquetadas** mediante superpíxeles (`.tif`).
+- Archivos **`.csv`** con las **características por superpíxel** de cada imagen etiquetada.
 
-🔗 Acceso público al dataset:
-https://drive.google.com/drive/folders/1VVvzgeX1ijy2it0-73B0oUnwz_FeZ896?usp=sharing
+📌 **Licencia de uso:** Académico / Investigación no comercial.  
+📌 **Citación recomendada:**
 
-📍 Características principales:
+> Ventura, S. (2025). *TapachulaRGB: Conjunto de datos de imágenes aéreas RGB obtenidas por dron en Tapachula, Chiapas* [Dataset].  
+> Disponible en: https://drive.google.com/drive/folders/1VVvzgeX1ijy2it0-73B0oUnwz_FeZ896?usp=sharing
 
-Imágenes aéreas urbanas capturadas mediante dron en Tapachula, Chiapas (México)
-
-Resolución alta apta para segmentación por superpíxeles
-
-Contiene escenas con:
-
-Vegetación (árboles, arbustos, pasto seco y verde)
-
-Techos (losa y lámina)
-
-Pavimento y suelo desnudo
-
-Zonas con sombra
-
-Cuerpos de agua
-
-Se incluyen versiones:
-
-Originales RGB
-
-Segmentadas con sus máscaras
-
-Archivos .csv con etiquetas y características por superpíxel
-
-📌 Licencia de uso: Académico / Investigación no comercial
-📌 Si utilizas estos datos en un trabajo académico, por favor cita:
-
-Ventura, S. (2025). TapachulaRGB: Conjunto de datos de imágenes aéreas RGB obtenidas por dron en Tapachula, Chiapas [Dataset].
-Disponible en: https://drive.google.com/drive/folders/1VVvzgeX1ijy2it0-73B0oUnwz_FeZ896?usp=sharing
 
 ## 👩‍💻 Créditos
 
