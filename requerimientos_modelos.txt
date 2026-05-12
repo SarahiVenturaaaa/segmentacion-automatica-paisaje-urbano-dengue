@@ -1,3 +1,5 @@
+#Paqueterias y versiones correspondientes para ejecutar de manera correcta los notebooks
+
 anyio==4.9.0
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
