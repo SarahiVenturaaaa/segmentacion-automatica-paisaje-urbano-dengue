@@ -48,8 +48,8 @@ Se desarrolló una herramienta de segmentación semántica del paisaje urbano en
 - **Clasificación automática de imágenes (flujo completo)**:
   - Generación de resultados de imágenes **procesadas y clasificadas automáticamente** (10 coberturas + “Sin etiqueta”), utilizando los modelos entrenados y la estrategia seleccionada.
   - Salidas por imagen:
-    - imagen segmentada y clasificada,
-    - **leyenda y proporciones** de superpíxeles por categoría.
+  - Imagen segmentada y clasificada, con leyenda que muestra las proporciones de superpíxeles por categoría.
+  - Archivo `.csv` con el vector de características por superpíxel (y la predicción/etiqueta correspondiente) para cada imagen procesada.
   - **Visualizaciones adicionales**:
     - superpíxeles por categoría,
     - gráficas de proporción por clase (barras y pastel) para cada imagen procesada.
