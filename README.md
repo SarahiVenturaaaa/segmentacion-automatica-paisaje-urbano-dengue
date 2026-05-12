@@ -54,12 +54,18 @@ Se desarrolló una herramienta de segmentación semántica del paisaje urbano en
     - superpíxeles por categoría,
     - gráficas de proporción por clase (barras y pastel) para cada imagen procesada.
  
+***
 
-## 🛠 Requisitos
+## 🛠 Requisitos para la generación del conjunto de datos
 
-El archivo **requerimentos_etiquetador.txt** contiene la versión de las librerías requeridas para ejecutar el script **Etiquetador_actualizado.py**.  Para consultar el uso de la herramienta paso a paso, se puede consultar el video **tutorial_herramienta_etiquetado_RGB** disponible en:
+Para generar el conjunto de datos, es necesario ejecutar el script de la herramienta de etiquetado **`Etiquetador_actualizado.py`**. Con el fin de garantizar su correcta ejecución, se debe crear un **entorno de Python** con la versión **Python 3.9.18** e instalar las librerías necesarias de acuerdo con las versiones señaladas. Estas especificaciones se encuentran en el archivo **`requerimientos_etiquetador.txt`**.
+
+**Nota:** El entorno puede crearse con la herramienta de preferencia, por ejemplo, `venv`, `virtualenv` o Conda. Lo importante es conservar la versión de Python indicada y respetar las dependencias especificadas en el archivo de requerimientos.
+
+Una vez creado y activado el entorno, se puede consultar el video **`tutorial_herramienta_etiquetado_RGB`**, en el cual se muestra el procedimiento paso a paso para utilizar la herramienta de etiquetado manual. El video se encuentra disponible en:
 
 [AQUÍ PEGA TU LINK]
+***
 
 Este repositorio trabaja con dos conjuntos de datos de **imágenes aéreas RGB de alta resolución** capturadas por dron en **Tapachula, Chiapas (México)**.
 
