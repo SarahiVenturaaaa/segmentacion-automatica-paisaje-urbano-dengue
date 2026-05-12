@@ -25,44 +25,35 @@ Este repositorio contiene el conjunto de datos, los notebooks, herramientas y do
 
 Se desarrolló una herramienta de segmentación semántica del paisaje urbano en Tapachula, Chiapas, utilizando un enfonque basado en **superpíxeles (SLIC)** y **modelos de aprendizaje automático**, con el objetivo de identificar de forma automática distintas coberturas del paisaje, como vegetación, cuerpos de agua, techos, pavimento, entre otras, que están asociadas a factores de riesgo para la transmisión de enfermedades como el dengue (mosquito *Aedes aegypti*).
 
-## 📂 Contenido del repositorio VERSION NUEVA
+## 📂 Contenido del repositorio (versión nueva)
 
-- **Segmentación** de imágenes en superpíxeles (SLIC).
-- **Etiquetado manual** de superpíxeles (herramienta gráfica) y generación de archivos `.csv`/`.tif` por imagen.
-- **Extracción de características** por superpíxel:
-  - Estadísticas de color (RGB),
-  - medidas de bordes/estructura (p. ej., densidad),
-  - texturas GLCM (dissimilarity, correlation, contrast, energy, homogeneity, ASM) en múltiples distancias y ángulos.
-- **Entrenamiento y evaluación** de modelos de clasificación:
-  - K-Nearest Neighbors (KNN),
-  - Regresión Logística (RL),
-  - Support Vector Machines (SVM),
-  - Random Forest (RF),
-  - Multilayer Perceptron (MLP).
-- **Estrategias de incertidumbre** para asignar la categoría **“Sin etiqueta”** a superpíxeles ambiguos/no representados (basadas en probabilidades; se documentan las estrategias evaluadas y la seleccionada).
-- **Clasificación automática completa de imágenes** (flujo de punta a punta):
-  - segmentación + extracción paralela + predicción por superpíxel con un modelo entrenado,
-  - cálculo de **probabilidades por clase** y aplicación de la estrategia de **“Sin etiqueta”**,
-  - generación de salidas por imagen (`Caract_paralelo_[imagen].csv`) con predicción original y predicción final,
-  - visualizaciones: superpíxeles por categoría y gráficas de proporciones por clase (barras y pastel),
-  - evaluación y reportes: matriz de confusión y métricas globales/por clase (cuando aplica).
+- **Herramienta de etiquetado** para la generación del conjunto de datos:
+  - Segmentación de la imagen en superpíxeles (SLIC).
+  - Extracción de **129 características por superpíxel**: estadísticas de color (RGB), bordes/estructura y textura (GLCM).
+  - Generación de **2 archivos por imagen**:
+    - `.csv` con el vector de características por superpíxel y la etiqueta asignada,
+    - `.tif` con la imagen segmentada y etiquetada (visualización).
 
-## 📂 Contenido del repositorio VERSION VIEJA:
-
-- Código para:
-  - Segmentación de imágenes.
-  - Etiquetado manual y automático de superpíxeles.
-  - Extracción de características estadísticas, de bordes, y de textura.
-  - Clasificación automática de superpíxeles en categorías de interés.
-- Entrenamiento y evaluación de modelos:
+- **Entrenamiento y evaluación de modelos de clasificación**:
   - K-Nearest Neighbors (KNN)
   - Regresión Logística (RL)
-  - Máquinas de Soporte Vectorial (SVM)
+  - Support Vector Machines (SVM)
   - Random Forest (RF)
-  - Redes Neuronales Multicapa (MLP)
-- Asignación automática de la categoría **“Sin etiqueta”** para superpíxeles no clasificados.
-- Visualización de resultados y predicciones sobre las imágenes segmentadas.
-- Clasificacion automatica de las imagenes para cada uno de los modelos de aprendizaje etnteenad
+  - Multilayer Perceptron (MLP)
+
+- **Estrategias de incertidumbre** para asignar la categoría **“Sin etiqueta”** a superpíxeles ambiguos/no representados:
+  - Basadas en probabilidades por clase.
+  - Se documentan las estrategias evaluadas y la estrategia seleccionada.
+
+- **Clasificación automática de imágenes (flujo completo)**:
+  - Generación de resultados de imágenes **procesadas y clasificadas automáticamente** (10 coberturas + “Sin etiqueta”), utilizando los modelos entrenados y la estrategia seleccionada.
+  - Salidas por imagen:
+    - imagen segmentada y clasificada,
+    - **leyenda y proporciones** de superpíxeles por categoría.
+  - **Visualizaciones adicionales**:
+    - superpíxeles por categoría,
+    - gráficas de proporción por clase (barras y pastel) para cada imagen procesada.
+ 
 
 ## 🛠 Requisitos
 
