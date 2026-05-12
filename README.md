@@ -67,9 +67,7 @@ Una vez creado y activado el entorno, se puede consultar el video **`tutorial_he
 [AQUÍ PEGA TU LINK]
 ***
 
-Este repositorio trabaja con dos conjuntos de datos de **imágenes aéreas RGB de alta resolución** capturadas por dron en **Tapachula, Chiapas (México)**.
-
----
+Este repositorio trabaja con dos conjuntos de datos de **imágenes aéreas RGB de alta resolución** capturadas por dron en **Tapachula, Chiapas (México)**:
 
 ## 🗂️ SetDroneDataset_TapachulaRGB
 
