@@ -1,11 +1,13 @@
 #Paqueterias y versiones correspondientes para ejecutar de manera correcta el Etiquetador
 
+numpy==1.26.4
 pandas==2.1.4
 pillow==10.0.1
+opencv-contrib-python==4.9.0.80
 scikit-image==0.22.0
 scipy==1.11.4
 matplotlib==3.8.0
-numpy==1.26.4
 imutils==0.5.4
-opencv-contrib-python==4.9.0.80
-ttkbootstrap
+ttkbootstrap==1.10.1
+tifffile==2024.8.30
+openpyxl==3.1.5
