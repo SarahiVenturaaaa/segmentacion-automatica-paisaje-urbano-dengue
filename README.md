@@ -45,7 +45,7 @@ Se desarrolló una herramienta de segmentación semántica del paisaje urbano en
   - Basadas en probabilidades por clase.
   - Se documentan las estrategias evaluadas y la estrategia seleccionada.
 
-- **Clasificación automática de imágenes (flujo completo)**:
+- **Clasificación automática de imágenes**:
   - Generación de resultados de imágenes **procesadas y clasificadas automáticamente** (10 coberturas + “Sin etiqueta”), utilizando los modelos entrenados y la estrategia seleccionada.
   - Salidas por imagen:
   - Imagen segmentada y clasificada, con leyenda que muestra las proporciones de superpíxeles por categoría.
@@ -101,9 +101,7 @@ https://drive.google.com/drive/folders/1K6Irsw0WHXWKRMfe4bm82g1zk5-7LHjs?usp=sha
 
 ---
     
-EL archivo **instrucciones_ejecucion_notebooks.odt** contiene la información que requiere cada notebook para poder ser ejecutado correctamente. Donde cada ruta utilizada en los notebooks debe actualizarse según la ubicación local donde se encuentren almacenados los datos en cada equipo. Para poder ejecutar estos notebooks, es neceario crear un ambiente  o entorno virtual no se como se llamae, pero se debe instalar las libretrias y versiones que se encuentran disponibles en **requerimientos_modelos.txt** 
-
-Para ejecutar los notebooks, es necesario crear un **entorno de Python** e instalar la version Python 3.9.18, las librerias y versiones requeridas se encuentran en el archivo **requerimientos_modelos.txt**.
+EL archivo **instrucciones_ejecucion_notebooks.odt** contiene la información que requiere cada notebook para poder ser ejecutado correctamente. Donde cada ruta utilizada en los notebooks debe actualizarse según la ubicación local donde se encuentren almacenados los datos en cada equipo. 
 
 Para ejecutar los notebooks, es necesario crear un **entorno de Python** con **Python 3.9.18** e instalar las librerías en las versiones indicadas para lograr compilar los notebooks de forma correcta. Estas dependencias se encuentran en el archivo **requerimientos_modelos.txt**.  
 **Nota:** El entorno puede crearse con la herramienta de preferencia (por ejemplo, `venv`, `virtualenv` o Conda); lo importante es respetar la versión de Python requerida y las dependencias especificadas.
