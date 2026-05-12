@@ -41,7 +41,7 @@ Se desarrolló una herramienta de segmentación semántica del paisaje urbano en
   - Random Forest (RF)
   - Multilayer Perceptron (MLP)
 
-- **Estrategias de incertidumbre** para asignar la categoría **“Sin etiqueta”** a superpíxeles ambiguos/no representados:
+- **Estrategias para asignar la categoría “Sin etiqueta” a superpíxeles ambiguos/no representados:**
   - Basadas en probabilidades por clase.
   - Se documentan las estrategias evaluadas y la estrategia seleccionada.
 
@@ -98,6 +98,19 @@ https://drive.google.com/drive/folders/1K6Irsw0WHXWKRMfe4bm82g1zk5-7LHjs?usp=sha
   - la categoría asignada,
   - y las **129 características** extraídas por superpíxel.
 - **Un archivo `.tif` por imagen** que muestra la imagen segmentada y etiquetada.
+
+---
+## 🧹 Verificación y limpieza del etiquetado (superpíxeles por categoría)
+
+Después de generar los conjuntos de datos. Se utilizo el script **verificacion_superpixeles_categoria.py**, para **inspeccionar la calidad del etiquetado manual** y detectar de forma rápida posibles errores o superpíxeles con mezcla de coberturas.
+
+Este script genera, para cada imagen etiquetada, versiones en las que se resaltan únicamente los superpíxeles de **una categoría específica**, dejando el resto de la imagen con fondo negro. Las salidas se organizan automáticamente en **carpetas por categoría**, lo que facilita la revisión visual y la identificación de imágenes/categorías que requieren corrección manual.
+
+**Ejemplo de salida (una imagen, múltiples categorías):**
+- `Arbol/imagen_x5_1_arbol.jpg`
+- `Techo_de_lamina/imagen_x5_1_techo_de_lamina.jpg`
+
+Esta etapa de verificación fue utilizada como parte del preprocesamiento para asegurar un conjunto de datos más limpio antes del entrenamiento de los modelos.
 
 ---
     
