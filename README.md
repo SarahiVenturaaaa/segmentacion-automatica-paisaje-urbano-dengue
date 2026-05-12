@@ -25,7 +25,7 @@ Este repositorio contiene el conjunto de datos, los notebooks, herramientas y do
 
 Se desarrolló una herramienta de segmentación semántica del paisaje urbano en Tapachula, Chiapas, utilizando un enfonque basado en **superpíxeles (SLIC)** y **modelos de aprendizaje automático**, con el objetivo de identificar de forma automática distintas coberturas del paisaje, como vegetación, cuerpos de agua, techos, pavimento, entre otras, que están asociadas a factores de riesgo para la transmisión de enfermedades como el dengue (mosquito *Aedes aegypti*).
 
-## 📂 Contenido del repositorio (versión nueva)
+## 📂 Contenido del repositorio
 
 - **Herramienta de etiquetado** para la generación del conjunto de datos:
   - Segmentación de la imagen en superpíxeles (SLIC).
