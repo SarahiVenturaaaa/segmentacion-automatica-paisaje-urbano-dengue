@@ -57,7 +57,7 @@ Se desarrolló una herramienta de segmentación semántica del paisaje urbano en
 
 ## 🛠 Requisitos
 
-- Python 3.9 o superior  
+- Python 3.9  
 - Bibliotecas necesarias:
   - `scikit-learn`
   - `numpy`
@@ -65,7 +65,10 @@ Se desarrolló una herramienta de segmentación semántica del paisaje urbano en
   - `matplotlib`
   - `joblib`
 
-El archivo **requerimentos_etiquetador.txt** contiene la versión de las librerías requeridas para ejecutar el script **Etiquetador_actualizado.py**.
+
+El archivo **requerimentos_etiquetador.txt** contiene la versión de las librerías requeridas para ejecutar el script **Etiquetador_actualizado.py**.  Para consultar el uso de la herramienta paso a paso, se puede consultar el video **tutorial_herramienta_etiquetado_RGB** disponible en:
+
+[AQUÍ PEGA TU LINK]
 
 Este repositorio trabaja con dos conjuntos de datos de **imágenes aéreas RGB de alta resolución** capturadas por dron en **Tapachula, Chiapas (México)**.
 
@@ -107,7 +110,12 @@ https://drive.google.com/drive/folders/1K6Irsw0WHXWKRMfe4bm82g1zk5-7LHjs?usp=sha
 
 ---
     
-EL archivo **instrucciones_ejecucion_notebooks.odt** contiene la información que requiere cada notebook para poder ser ejecutado correctamente. Donde cada ruta utilizada en los notebooks debe actualizarse según la ubicación local donde se encuentren almacenados los datos en cada equipo.
+EL archivo **instrucciones_ejecucion_notebooks.odt** contiene la información que requiere cada notebook para poder ser ejecutado correctamente. Donde cada ruta utilizada en los notebooks debe actualizarse según la ubicación local donde se encuentren almacenados los datos en cada equipo. Para poder ejecutar estos notebooks, es neceario crear un ambiente  o entorno virtual no se como se llamae, pero se debe instalar las libretrias y versiones que se encuentran disponibles en **requerimientos_modelos.txt** 
+
+Para ejecutar los notebooks, es necesario crear un **entorno de Python** e instalar la version Python 3.9.18, las librerias y versiones requeridas se encuentran en el archivo **requerimientos_modelos.txt**.
+
+Para ejecutar los notebooks, es necesario crear un **entorno de Python** con **Python 3.9.18** e instalar las librerías en las versiones indicadas para lograr compilar los notebooks de forma correcta. Estas dependencias se encuentran en el archivo **requerimientos_modelos.txt**.  
+**Nota:** El entorno puede crearse con la herramienta de preferencia (por ejemplo, `venv`, `virtualenv` o Conda); lo importante es respetar la versión de Python requerida y las dependencias especificadas.
 
 ---
 
