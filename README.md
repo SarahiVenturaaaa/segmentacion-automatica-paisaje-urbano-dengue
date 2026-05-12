@@ -57,15 +57,6 @@ Se desarrolló una herramienta de segmentación semántica del paisaje urbano en
 
 ## 🛠 Requisitos
 
-- Python 3.9  
-- Bibliotecas necesarias:
-  - `scikit-learn`
-  - `numpy`
-  - `pandas`
-  - `matplotlib`
-  - `joblib`
-
-
 El archivo **requerimentos_etiquetador.txt** contiene la versión de las librerías requeridas para ejecutar el script **Etiquetador_actualizado.py**.  Para consultar el uso de la herramienta paso a paso, se puede consultar el video **tutorial_herramienta_etiquetado_RGB** disponible en:
 
 [AQUÍ PEGA TU LINK]
