@@ -113,10 +113,7 @@ EL archivo **instrucciones_ejecucion_notebooks.odt** contiene la información qu
 
   
 📌 **Licencia de uso:** Académico / Investigación no comercial.  
-📌 **Citación recomendada:**
 
-> Ventura, S. (2025). *TapachulaRGB: Conjunto de datos de imágenes aéreas RGB obtenidas por dron en Tapachula, Chiapas* [Dataset].  
-> Disponible en: https://drive.google.com/drive/folders/1VVvzgeX1ijy2it0-73B0oUnwz_FeZ896?usp=sharing
 
 
 ## 👩‍💻 Créditos
