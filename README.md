@@ -64,7 +64,7 @@ Para generar el conjunto de datos, es necesario ejecutar el script de la herrami
 
 Una vez creado y activado el entorno, se puede consultar el video **`tutorial_herramienta_etiquetado_RGB`**, en el cual se muestra el procedimiento paso a paso para utilizar la herramienta de etiquetado manual. El video se encuentra disponible en:
 
-[AQUÍ PEGA TU LINK]
+https://drive.google.com/file/d/1YwgJuyjX_4MJxT2aH8uJotcvUu8PKUlF/view?usp=sharing
 ***
 
 Este repositorio trabaja con dos conjuntos de datos de **imágenes aéreas RGB de alta resolución** capturadas por dron en **Tapachula, Chiapas (México)**:
