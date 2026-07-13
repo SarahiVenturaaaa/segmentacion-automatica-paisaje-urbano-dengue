@@ -21,7 +21,7 @@
 <h1 align="center">Segmentación semántica del paisaje en zonas urbanas para la determinación de factores de riesgo de transmisión de dengue</h1>
 
 
-Este repositorio contiene el conjunto de datos, los notebooks, herramientas y documentación generados durante la consultoría realizada en colaboración con el Instituto Nacional de Salud Pública (INSP).
+Este repositorio contiene el conjunto de datos, los notebooks, las herramientas y la documentación generados durante un proyecto realizado en colaboración con el Instituto Nacional de Salud Pública (INSP).
 
 Se desarrolló una herramienta de segmentación semántica del paisaje urbano en Tapachula, Chiapas, utilizando un enfonque basado en **superpíxeles (SLIC)** y **modelos de aprendizaje automático**, con el objetivo de identificar de forma automática distintas coberturas del paisaje, como vegetación, cuerpos de agua, techos, pavimento, entre otras, que están asociadas a factores de riesgo para la transmisión de enfermedades como el dengue (mosquito *Aedes aegypti*).
 
@@ -44,6 +44,19 @@ Se desarrolló una herramienta de segmentación semántica del paisaje urbano en
 - **Estrategias para asignar la categoría “Sin etiqueta” a superpíxeles ambiguos/no representados:**
   - Basadas en probabilidades por clase.
   - Se documentan las estrategias evaluadas y la estrategia seleccionada.
+ 
+- **Modelo de aprendizaje automático seleccionado:**
+
+Se evaluaron diferentes modelos de aprendizaje automático para la clasificación de las coberturas del paisaje: <strong>K-Nearest Neighbors, Regresión Logística, Support Vector Machines, Random Forest</strong> y <strong>Multilayer Perceptron</strong>.
+
+El modelo <strong>Multilayer Perceptron (MLP)</strong> presentó el mejor desempeño global weighted sobre el conjunto de prueba, con una precisión de <strong>0.7188</strong>, un recall de <strong>0.7052</strong> y un F1-score de <strong>0.6876</strong>. Por esta razón, fue seleccionado como el modelo final para la clasificación automática de las coberturas del paisaje.
+
+- **Estrategia para asignar la categoría “Sin etiqueta” a superpíxeles ambiguos o no representados:**
+
+Debido a que el modelo fue entrenado únicamente para reconocer las coberturas del paisaje definidas previamente, se diseñaron e implementaron distintas estrategias para medir el nivel de incertidumbre asociado con cada predicción y evitar asignaciones forzadas en superpíxeles ambiguos, con mezcla de coberturas o pertenecientes a objetos no representados durante el entrenamiento.
+
+Estas estrategias se basaron en las probabilidades de clasificación generadas por el modelo. Después de evaluar su efecto tanto en las métricas de desempeño como en las proporciones estimadas de cobertura, se seleccionó la <strong>Estrategia 5</strong>, la cual asigna la categoría <strong>“Sin etiqueta”</strong> cuando la probabilidad máxima estimada por el modelo es inferior a <strong>0.30</strong>.
+
 
 - **Clasificación automática de imágenes**:
   - Generación de resultados de imágenes **procesadas y clasificadas automáticamente** (10 coberturas + “Sin etiqueta”), utilizando los modelos entrenados y la estrategia seleccionada.
