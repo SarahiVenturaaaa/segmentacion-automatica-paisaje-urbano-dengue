@@ -37,7 +37,7 @@ Se desarrolló una herramienta de segmentación semántica del paisaje urbano en
 
  - **Modelo de aprendizaje automático seleccionado:**
 
-Se evaluaron diferentes modelos de aprendizaje automático para la clasificación de las coberturas del paisaje, y el modelo <strong>Multilayer Perceptron (MLP)</strong> presentó el mejor desempeño global weighted sobre el conjunto de prueba, con una *precisión* de *0.7188*, un *recall* de *0.7052* y un *F1-score* de *0.6876*. Por esta razón, fue seleccionado como el modelo final para la clasificación automática de las coberturas del paisaje.
+Se evaluaron diferentes modelos de aprendizaje automático para la clasificación de las coberturas del paisaje, y el modelo <strong>Multilayer Perceptron (MLP)</strong> presentó el mejor desempeño global weighted sobre el conjunto de prueba, con una *precisión* de *0.8199*, un *recall* de *0.8193* y un *F1-score* de *0.8086*. Por esta razón, fue seleccionado como el modelo final para la clasificación automática de las coberturas del paisaje.
 
 - **Estrategia para asignar la categoría “Sin etiqueta” a superpíxeles ambiguos o no representados:**
 
