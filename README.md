@@ -37,7 +37,7 @@ Se desarrolló una herramienta de segmentación semántica del paisaje urbano en
 
  - **Modelo de aprendizaje automático seleccionado:**
 
-Se evaluaron diferentes modelos de aprendizaje automático para la clasificación de las coberturas del paisaje, y el modelo <strong>Multilayer Perceptron (MLP)</strong> presentó el mejor desempeño global weighted sobre el conjunto de prueba, con una *precisión* de *0.8199*, un *recall* de *0.8193* y un *F1-score* de *0.8086*. Por esta razón, fue seleccionado como el modelo final para la clasificación automática de las coberturas del paisaje.
+Se evaluaron diferentes modelos de aprendizaje automático (KNN, SVM y MLP) para la clasificación de las coberturas del paisaje, y el modelo <strong>Multilayer Perceptron (MLP)</strong> presentó el mejor desempeño global weighted sobre el conjunto de prueba, con una *precisión* de *0.8199*, un *recall* de *0.8193* y un *F1-score* de *0.8086*. Por esta razón, fue seleccionado como el modelo final para la clasificación automática de las coberturas del paisaje.
 
 - **Clasificación automática de imágenes**:
   - Generación de resultados de imágenes **procesadas y clasificadas automáticamente** (10 coberturas + “Sin etiqueta”), utilizando los modelos entrenados y la estrategia seleccionada.
@@ -73,24 +73,6 @@ https://drive.google.com/drive/folders/1VVvzgeX1ijy2it0-73B0oUnwz_FeZ896?usp=sha
 
 📍 **La carpeta contiene:**
 - **140 imágenes** aéreas urbanas capturadas mediante dron en Tapachula, Chiapas (México).
-- **Un archivo `.csv` por imagen** con estructura `Etiquetado_<nombre_imagen>.csv`, donde cada fila incluye:
-  - el índice del superpíxel,
-  - la categoría asignada,
-  - y las **129 características** extraídas por superpíxel.
-- **Un archivo `.tif` por imagen** que muestra la imagen segmentada y etiquetada.
-
----
-
-## 🗂️ test_set_rgb
-
-Contiene información de **23 imágenes** etiquetadas manualmente a nivel de superpíxel en **11 categorías**: las 10 anteriores más **“Sin etiqueta”**.  
-Este conjunto se utilizó para **evaluar el desempeño** de los modelos entrenados de forma más realista, así como para la **construcción y evaluación de estrategias** para asignar la categoría **“Sin etiqueta”**, ya que los modelos fueron entrenados originalmente sin conocimiento de esta clase adicional.
-
-🔗 Carpeta disponible en:  
-https://drive.google.com/drive/folders/1K6Irsw0WHXWKRMfe4bm82g1zk5-7LHjs?usp=sharing
-
-📍 **La carpeta contiene:**
-- **23 imágenes** originales utilizadas como conjunto de prueba.
 - **Un archivo `.csv` por imagen** con estructura `Etiquetado_<nombre_imagen>.csv`, donde cada fila incluye:
   - el índice del superpíxel,
   - la categoría asignada,
