@@ -34,28 +34,17 @@ Se desarrolló una herramienta de segmentación semántica del paisaje urbano en
     - `.csv` con el vector de características por superpíxel y la etiqueta asignada,
     - `.tif` con la imagen segmentada y etiquetada (visualización).
 
-- **Entrenamiento y evaluación de modelos de clasificación**:
-  - K-Nearest Neighbors (KNN)
-  - Regresión Logística (RL)
-  - Support Vector Machines (SVM)
-  - Random Forest (RF)
-  - Multilayer Perceptron (MLP)
 
-- **Estrategias para asignar la categoría “Sin etiqueta” a superpíxeles ambiguos/no representados:**
-  - Basadas en probabilidades por clase.
-  - Se documentan las estrategias evaluadas y la estrategia seleccionada.
- 
-- **Modelo de aprendizaje automático seleccionado:**
+ - **Modelo de aprendizaje automático seleccionado:**
 
-Se evaluaron diferentes modelos de aprendizaje automático para la clasificación de las coberturas del paisaje: <strong>K-Nearest Neighbors, Regresión Logística, Support Vector Machines, Random Forest</strong> y <strong>Multilayer Perceptron</strong>.
-
-El modelo <strong>Multilayer Perceptron (MLP)</strong> presentó el mejor desempeño global weighted sobre el conjunto de prueba, con una precisión de <strong>0.7188</strong>, un recall de <strong>0.7052</strong> y un F1-score de <strong>0.6876</strong>. Por esta razón, fue seleccionado como el modelo final para la clasificación automática de las coberturas del paisaje.
+Se evaluaron diferentes modelos de aprendizaje automático para la clasificación de las coberturas del paisaje: K-Nearest Neighbors, Regresión Logística, Support Vector Machines, Random Forest y Multilayer Perceptron.
+El modelo <strong>Multilayer Perceptron (MLP)</strong> presentó el mejor desempeño global weighted sobre el conjunto de prueba, con una *precisión* de *0.7188*, un *recall* de *0.7052* y un *F1-score* de *0.6876*. Por esta razón, fue seleccionado como el modelo final para la clasificación automática de las coberturas del paisaje.
 
 - **Estrategia para asignar la categoría “Sin etiqueta” a superpíxeles ambiguos o no representados:**
 
 Debido a que el modelo fue entrenado únicamente para reconocer las coberturas del paisaje definidas previamente, se diseñaron e implementaron distintas estrategias para medir el nivel de incertidumbre asociado con cada predicción y evitar asignaciones forzadas en superpíxeles ambiguos, con mezcla de coberturas o pertenecientes a objetos no representados durante el entrenamiento.
 
-Estas estrategias se basaron en las probabilidades de clasificación generadas por el modelo. Después de evaluar su efecto tanto en las métricas de desempeño como en las proporciones estimadas de cobertura, se seleccionó la <strong>Estrategia 5</strong>, la cual asigna la categoría <strong>“Sin etiqueta”</strong> cuando la probabilidad máxima estimada por el modelo es inferior a <strong>0.30</strong>.
+Estas estrategias se basaron en las probabilidades de clasificación generadas por el modelo. Después de evaluar su efecto tanto en las métricas de desempeño como en las proporciones estimadas de cobertura, se seleccionó la *Estrategia 5*, la cual asigna la categoría *“Sin etiqueta”* cuando la probabilidad máxima estimada por el modelo es inferior a *0.30*.
 
 
 - **Clasificación automática de imágenes**:
